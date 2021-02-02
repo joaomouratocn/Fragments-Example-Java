@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/design_default_color_primary_dark"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/icon_car"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/strModelCars"/>
+
+</LinearLayout>
